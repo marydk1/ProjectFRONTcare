@@ -1,0 +1,76 @@
+/* Контейнер каруселі */
+.carouselContainer {
+  max-width: 1200px;
+  margin: 80px auto;
+  position: relative;
+  padding: 0 20px;
+}
+
+/* Трек каруселі */
+.carouselTrack {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 20px;
+  scrollbar-width: none; /* Firefox */
+}
+.carouselTrack::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+/* Окремий елемент каруселі */
+.carouselItem {
+  min-width: 250px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.carouselItem img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto; /* по центру */
+}
+
+/* Текст під фото */
+.carouselItem p {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Прогрес-бар */
+.progressBar {
+  position: relative;
+  height: 4px;
+  background: #eee;
+  margin-top: 10px;
+  border-radius: 2px;
+}
+
+.progressBarInner {
+  position: absolute;
+  height: 4px;
+  background: #111;
+  width: 0;
+  transition: width 0.3s ease;
+  border-radius: 2px;
+}
+
+/* Адаптивність */
+@media (max-width: 768px) {
+  .carouselItem {
+    min-width: 180px;
+  }
+
+  .carouselItem img {
+    max-width: 180px;
+  }
+
+  .carouselItem p {
+    font-size: 14px;
+  }
+}

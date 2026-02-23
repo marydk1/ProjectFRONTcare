@@ -1,0 +1,46 @@
+.contactService {
+  text-align: center;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.toggleButton {
+  padding: 14px 50px;
+  border: 1px solid #999;
+  background: transparent;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 26px;
+  transition: all 0.3s ease;
+}
+
+.toggleButton:hover {
+  background-color: #111;
+  color: #fff;
+  border-color: #111;
+}
+
+.contactContent {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactText {
+  font-size: 28px; /* збільшений текст */
+  line-height: 1.8;
+  color: #555;
+  opacity: 0.9;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spacer {
+  height: 16px; /* відстань між рядками */
+}
+

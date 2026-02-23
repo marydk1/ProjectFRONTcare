@@ -1,0 +1,388 @@
+/* ==============================
+   Базові стилі сторінки
+============================== */
+.main {
+  min-height: 70vh;
+  padding: 60px 20px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* ==============================
+   Intro Section
+============================== */
+.introSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.introContainer {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  flex-wrap: wrap;
+}
+
+.imageWrapper img {
+  width: 432px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0px;
+   margin-left: 100px;
+}
+
+
+.textWrapper {
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+   margin-left: 50px;
+}
+
+.label {
+  font-size: 20px;
+  font-weight: 400;
+  color: #2c2c2c;
+  margin-bottom: 14px;
+}
+
+.title {
+  font-size: 70px;
+  font-weight: 700;
+  color: #000;
+  line-height: 1.2;
+  margin-bottom: 22px;
+}
+
+.description {
+  font-size: 20px;
+  font-weight: 400;
+  color: #7a7a7a;
+  line-height: 1.6;
+  margin-bottom: 36px;
+}
+
+/* ==============================
+   About US
+============================== */
+.storySection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 20px;
+  background-color: #fff;
+}
+
+.storyTitle {
+  font-size: 48px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.storySubtitle {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.storyContent {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.storyImageWrapper {
+  position: relative;
+  max-width: 400px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.storyImage {
+  width: 100%;
+  filter: grayscale(100%);
+  transition: transform 0.5s ease, filter 0.5s ease;
+  border-radius: 12px;
+}
+
+.storyImageWrapper:hover .storyImage {
+  transform: scale(1.05);
+  filter: grayscale(0%);
+}
+
+.storyImageLabel {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+/* Timeline */
+.timelineWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.timelineLine {
+  position: absolute;
+  left: 30px;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background-color: #eee;
+  border-radius: 2px;
+}
+
+.timelineStep {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+}
+
+.timelineCircle {
+  width: 20px;
+  height: 20px;
+  background-color: #030303;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  position: relative;
+  z-index: 1;
+  margin-top: 0;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.timelineStep:hover .timelineCircle {
+  transform: scale(1.3);
+  background-color: #2b2a2abf;
+}
+
+.timelineContent {
+  background-color: #fff;
+  padding: 20px 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  max-width: 500px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  opacity: 0;
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.timelineStep:hover .timelineContent {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+}
+
+.timelineContent h3 {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.timelineContent p {
+  margin: 0;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+/* Stats */
+.storyStats {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.stat h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.stat p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+
+
+/* ==============================
+   Footer
+============================== */
+.footer {
+  text-align: center;
+  padding: 20px 0 40px;
+  border-top: 1px solid #000;
+}
+
+.footerLinks {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* ==============================
+   Адаптив
+============================== */
+@media (max-width: 768px) {
+  .introContainer, .storyContent, .processSteps, .valuesBlocks, .featureBlocks {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .whyBottomRow {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: center;
+  }
+}
+
+/* ==============================
+   Анімації
+============================== */
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(20px);}
+  100% { opacity: 1; transform: translateY(0);}
+}
+
+.introStats {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.introStats .stat h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.introStats .stat p {
+  font-size: 14px;
+  color: #555;
+}
+
+.main { background-color: #fff; overflow-x: hidden; }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 20px; box-sizing: border-box; }
+
+/* 1. Intro */
+.introSection { padding: 100px 0; display: flex; justify-content: center; }
+.introContainer { display: flex; align-items: center; gap: 60px; max-width: 1200px; }
+.imageWrapper img { width: 432px; filter: grayscale(100%); border-radius: 4px; }
+.textWrapper { max-width: 520px; }
+.title { font-size: 70px; font-weight: 700; line-height: 1.1; margin-bottom: 20px; color: #000; }
+.label { letter-spacing: 2px; text-transform: uppercase; font-size: 14px; margin-bottom: 10px; color: #2c2c2c; }
+.description { font-size: 18px; color: #666; line-height: 1.6; margin-bottom: 30px; }
+.introStats { display: flex; gap: 40px; margin-top: 40px; }
+.stat h3 { font-size: 32px; font-weight: 700; margin-bottom: 5px; color: #000; }
+.stat p { font-size: 14px; color: #555; }
+
+/* 2 & 3. Philosophy Unified Design */
+.philosophySection { padding: 140px 0; position: relative; overflow: hidden; background-color: #fff; }
+.philosophyGrid { display: grid; grid-template-columns: 1fr 1.2fr; align-items: center; gap: 80px; position: relative; }
+.hugeWatermark { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 25vw; font-weight: 900; color: #f9f9f9; z-index: 0; letter-spacing: -1vw; pointer-events: none; }
+.philosophyImageWrapper { position: relative; z-index: 2; box-shadow: 20px 20px 0px #000; }
+.philosophyImage { width: 100%; display: block; filter: grayscale(100%); transition: 0.5s ease; }
+.philosophyImageWrapper:hover .philosophyImage { filter: grayscale(0%); }
+.imageCaption { position: absolute; bottom: -40px; left: 0; font-size: 11px; letter-spacing: 3px; font-weight: 600; text-transform: uppercase; }
+.philosophyContent { position: relative; z-index: 2; }
+.accentLine { display: block; width: 60px; height: 2px; background: #000; margin-bottom: 30px; }
+.mainQuote { font-size: 2.5rem; font-weight: 700; line-height: 1.2; color: #000; margin-bottom: 35px; }
+.manifestoMini { max-width: 420px; font-size: 1.1rem; color: #666; line-height: 1.7; border-left: 1px solid #eee; padding-left: 25px; margin-bottom: 40px; }
+.philosophyBtn { background: #000; color: #fff; border: none; padding: 18px 40px; font-size: 13px; text-transform: uppercase; letter-spacing: 2px; cursor: pointer; transition: 0.3s ease; }
+.philosophyBtn:hover { background: #333; transform: translateY(-3px); }
+
+/* 4. Story */
+.storySection { padding: 100px 0; border-top: 1px solid #f0f0f0; }
+.storyTitle { font-size: 48px; font-weight: 700; text-align: center; margin-bottom: 40px; }
+.storySubtitle { font-size: 20px; color: #555; text-align: center; margin-bottom: 60px; }
+.storyContent { display: flex; gap: 60px; justify-content: center; flex-wrap: wrap; }
+.storyImageWrapper { position: relative; max-width: 400px; }
+.storyImage { width: 100%; border-radius: 12px; filter: grayscale(100%); transition: 0.5s; }
+.storyImageLabel { position: absolute; bottom: 20px; right: 20px; background: rgba(255,255,255,0.9); padding: 8px 15px; font-weight: 700; border-radius: 4px; font-size: 14px; }
+.timelineWrapper { position: relative; padding-left: 40px; max-width: 500px; }
+.timelineLine { position: absolute; left: 0; top: 0; bottom: 0; width: 1px; background: #000; }
+.timelineStep { margin-bottom: 50px; position: relative; }
+.timelineCircle { position: absolute; left: -45px; top: 5px; width: 10px; height: 10px; background: #000; border-radius: 50%; }
+.timelineContent { background: #fdfdfd; padding: 25px; border-radius: 12px; border: 1px solid #eee; }
+
+/* 5. Herbarium */
+.herbariumSection { padding: 100px 0; background: #fafafa; }
+.herbariumGrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 25px; margin-top: 50px; }
+.ingredientCard { background: #fff; padding: 40px 30px; border-radius: 12px; border: 1px solid #eee; text-align: center; transition: 0.4s; }
+.ingredientCard:hover { background: #000; color: #fff; transform: translateY(-10px); }
+.ingredientIcon { font-size: 2.5rem; margin-bottom: 20px; }
+
+/* 6. Reviews */
+.reviewsSection { padding: 100px 0; }
+.reviewsGrid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 50px; }
+.reviewCard { display: flex; gap: 25px; align-items: center; background: #fff; border: 1px solid #eee; padding: 25px; border-radius: 15px; }
+.reviewImageSwap { position: relative; width: 140px; height: 190px; overflow: hidden; border-radius: 10px; flex-shrink: 0; }
+.imgPrimary, .imgSecondary { width: 100%; height: 100%; object-fit: cover; position: absolute; transition: 0.6s ease-in-out; }
+.imgSecondary { opacity: 0; transform: scale(1.1); }
+.reviewCard:hover .imgPrimary { opacity: 0; }
+.reviewCard:hover .imgSecondary { opacity: 1; transform: scale(1); }
+.stars { color: #000; display: flex; gap: 3px; margin-bottom: 12px; }
+
+/* 7. Principles */
+.principlesSection { padding: 100px 0; border-top: 1px solid #f0f0f0; }
+.principlesContent { display: flex; gap: 80px; align-items: center; }
+.principlesText { flex: 1; }
+.principlesImage { flex: 1; }
+.principlesImage img { width: 100%; filter: grayscale(100%); border-radius: 12px; }
+.principlesList { list-style: none; padding: 0; margin-top: 30px; }
+.principlesList li { padding: 18px 0; border-bottom: 1px solid #f0f0f0; display: flex; align-items: center; gap: 15px; font-weight: 500; }
+
+/* 8. FAQ */
+.faqSection { padding: 100px 0; border-top: 1px solid #000; }
+.faqLayout { display: grid; grid-template-columns: 1fr 2fr; gap: 80px; }
+.faqItem { border-bottom: 1px solid #f0f0f0; padding: 25px 0; cursor: pointer; }
+.faqHeader { display: flex; justify-content: space-between; align-items: center; }
+.faqHeader h3 { font-size: 1.1rem; font-weight: 600; color: #000; }
+.faqAnswer { max-height: 0; overflow: hidden; transition: 0.4s ease; color: #777; line-height: 1.6; }
+.activeFaq { max-height: 150px; padding-top: 20px; }
+
+/* Footer */
+.footer { padding: 60px 0; border-top: 1px solid #eee; text-align: center; }
+.footerLinks { display: flex; justify-content: center; gap: 30px; margin-top: 20px; opacity: 0.5; font-size: 13px; text-transform: uppercase; letter-spacing: 1px; }
+
+/* Responsive */
+@media (max-width: 992px) {
+  .introContainer, .storyContent, .principlesContent, .faqLayout, .reviewsGrid, .philosophyGrid { grid-template-columns: 1fr; flex-direction: column; }
+  .imageWrapper img, .philosophyImageWrapper { width: 100%; margin: 0; }
+  .title { font-size: 45px; }
+  .hugeWatermark { font-size: 40vw; top: 20%; }
+  .mainQuote { font-size: 1.8rem; }
+}
