@@ -122,7 +122,7 @@ const Home = () => {
       <section className={styles.aboutUsSection}>
         <div className={styles.aboutUsContainer}>
           <div className={styles.aboutUsImage}>
-            <img src="/img/ecr.jpg" alt="About Us" />
+            <img src="/img/ecr.JPG" alt="About Us" />
           </div>
           <div className={styles.aboutUsContent}>
             <h2>EVERY DAY —<br />A NEW STEP<br />TOWARD PERFECT SKIN</h2>
@@ -149,9 +149,9 @@ const Home = () => {
             </button>
           </div>
           <div className={styles.categoriesImages}>
-            <div className={styles.categoryItem}><img src="/img/a1.jpg" alt="Cat 1" /><p>Care in every touch</p></div>
-            <div className={styles.categoryItem}><img src="/img/h3.jpg" alt="Cat 2" /><p>Textures for every need</p></div>
-            <div className={styles.categoryItem}><img src="/img/a2.jpg" alt="Cat 3" /><p>Softly spread</p></div>
+            <div className={styles.categoryItem}><img src="/img/a1.JPG" alt="Cat 1" /><p>Care in every touch</p></div>
+            <div className={styles.categoryItem}><img src="/img/h3.JPG" alt="Cat 2" /><p>Textures for every need</p></div>
+            <div className={styles.categoryItem}><img src="/img/a2.JPG" alt="Cat 3" /><p>Softly spread</p></div>
           </div>
         </div>
       </section>
@@ -169,14 +169,14 @@ const Home = () => {
       <section className={styles.leftSmallRightBigSection}>
         <div className={styles.leftSmallRightBigContainer}>
           <div className={styles.leftColumn}>
-            <img src="/img/b1.jpg" alt="Small" className={styles.smallPhoto} />
+            <img src="/img/b1.JPG" alt="Small" className={styles.smallPhoto} />
             <p className={styles.leftText}>We have created a skincare space where every product is selected with care.</p>
             <p className={styles.leftMore} onClick={() => navigate("/new-page")} style={{ display: "flex", alignItems: "center", cursor: "pointer", fontWeight: "bold" }}>
               MORE DETAILS <FiArrowRight style={{ marginLeft: "5px" }} />
             </p>
           </div>
           <div className={styles.rightColumn}>
-            <img src="/img/b2.jpg" alt="Big" className={styles.bigPhoto} />
+            <img src="/img/b2.JPG" alt="Big" className={styles.bigPhoto} />
           </div>
         </div>
       </section>
@@ -184,7 +184,7 @@ const Home = () => {
       {/* Skin Types Section */}
       <section className={styles.skinTypesBoxSection} style={{ paddingBottom: "40px" }}>
         <div className={styles.skinTypesImageWrapper}>
-          <img src="/img/s.jpg" alt="Special Care" className={styles.skinTypesImage} />
+          <img src="/img/s.JPG" alt="Special Care" className={styles.skinTypesImage} />
         </div>
         <p className={styles.skinTypesDescription} style={{ padding: "0 20px" }}>
           Each skin type has its own characteristics and requires individual care.
