@@ -6,28 +6,28 @@ import Header from "../components/Header";
 // 1. Статичні дані з усіх сторінок
 const staticProducts = [
   // SkinCare
-  { id: 1, description: "Ordinary Tonic", price: 20, oldPrice: 35, image: "/img/n4.jpg" },
-  { id: 2, description: "Ordinary Serum", price: 40, image: "/img/n5.jpg" },
-  { id: 3, description: "Ordinary face cream", price: 20, oldPrice: 35, image: "/img/n6.jpg" },
-  { id: 4, description: "Dior Roller", price: 20, image: "/img/n1.jpg" },
-  { id: 5, description: "Dior Washing gel", price: 20, image: "/img/n2.jpg" },
-  { id: 6, description: "Dior Essence", price: 20, image: "/img/n3.jpg" },
-  { id: 7, description: "Centela Eye cream", price: 20, image: "/img/w1.jpg" },
-  { id: 8, description: "Centela Tone", price: 20, image: "/img/w2.jpg" },
-  { id: 9, description: "Centela Tone Bright", price: 20, image: "/img/w3.jpg" },
-  { id: 10, description: "Dior Eye Rich cream", price: 20, image: "/img/g2.jpg" },
-  { id: 11, description: "Dior Prestige Balme", price: 20, image: "/img/le.jpg" },
-  { id: 12, description: "Dior Le Nectar", price: 20, image: "/img/g4.jpg" },
+  { id: 1, description: "Ordinary Tonic", price: 20, oldPrice: 35, image: "/img/n4.JPG" },
+  { id: 2, description: "Ordinary Serum", price: 40, image: "/img/n5.JPG" },
+  { id: 3, description: "Ordinary face cream", price: 20, oldPrice: 35, image: "/img/n6.JPG" },
+  { id: 4, description: "Dior Roller", price: 20, image: "/img/n1.JPG" },
+  { id: 5, description: "Dior Washing gel", price: 20, image: "/img/n2.JPG" },
+  { id: 6, description: "Dior Essence", price: 20, image: "/img/n3.JPG" },
+  { id: 7, description: "Centela Eye cream", price: 20, image: "/img/w1.JPG" },
+  { id: 8, description: "Centela Tone", price: 20, image: "/img/w2.JPG" },
+  { id: 9, description: "Centela Tone Bright", price: 20, image: "/img/w3.JPG" },
+  { id: 10, description: "Dior Eye Rich cream", price: 20, image: "/img/g2.JPG" },
+  { id: 11, description: "Dior Prestige Balme", price: 20, image: "/img/le.JPG" },
+  { id: 12, description: "Dior Le Nectar", price: 20, image: "/img/g4.JPG" },
   // Novelty
-  { id: 4, description: "Dior Patches", price: 20, image: "/img/dior4.jpg", category: "Novelty" },
-  { id: 6, description: "Dior Essence", price: 20, image: "/img/dior3.jpg", category: "Novelty" },
-  { id: 5, description: "Peeling Rose", price: 20, image: "/img/n2.jpg", category: "Novelty" },
-  { id: 7, description: "Aqua Serum", price: 20, image: "/img/w1.jpg", category: "Novelty" },
-  { id: 9, description: "Zen Balm", price: 20, image: "/img/w3.jpg", category: "Novelty" },
+  { id: 4, description: "Dior Patches", price: 20, image: "/img/dior4.JPG", category: "Novelty" },
+  { id: 6, description: "Dior Essence", price: 20, image: "/img/dior3.JPG", category: "Novelty" },
+  { id: 5, description: "Peeling Rose", price: 20, image: "/img/n2.JPG", category: "Novelty" },
+  { id: 7, description: "Aqua Serum", price: 20, image: "/img/w1.JPG", category: "Novelty" },
+  { id: 9, description: "Zen Balm", price: 20, image: "/img/w3.JPG", category: "Novelty" },
   // Bestsellers
-  { id: 10, description: "Dior Eye Rich cream", price: 20, image: "/img/g2.jpg", category: "Bestsellers" },
-  { id: 12, description: "Dior Le Nectar", price: 20, image: "/img/g4.jpg", category: "Bestsellers" },
-  { id: 11, description: "Dior Prestige Balme", price: 20, image: "/img/le.jpg", category: "Bestsellers" },
+  { id: 10, description: "Dior Eye Rich cream", price: 20, image: "/img/g2.JPG", category: "Bestsellers" },
+  { id: 12, description: "Dior Le Nectar", price: 20, image: "/img/g4.JPG", category: "Bestsellers" },
+  { id: 11, description: "Dior Prestige Balme", price: 20, image: "/img/le.JPG", category: "Bestsellers" },
 ];
 
 const OwnerProfile = () => {

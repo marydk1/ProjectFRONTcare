@@ -15,22 +15,22 @@ const Carousel = () => {
     <div className={styles.carouselContainer}>
       <div className={styles.carouselTrack} ref={trackRef} onScroll={handleScroll}>
         <div className={styles.carouselItem}>
-          <img src="/public/img/oil.jpg" alt="Product 1" />
+          <img src="/public/img/oil.JPG" alt="Product 1" />
           <p>Hair oil</p>
           <p>$20</p>
         </div>
         <div className={styles.carouselItem}>
-          <img src="/public/img/gison.jpg"  alt="Product 2" />
+          <img src="/public/img/gison.JPG"  alt="Product 2" />
           <p>Moisturizing conditioner</p>
           <p>$20</p>
         </div>
         <div className={styles.carouselItem}>
-          <img src="/public/img/centy.jpg"  alt="Product 3" />
+          <img src="/public/img/centy.JPG"  alt="Product 3" />
           <p>Serum</p>
           <p>$20</p>
         </div>
         <div className={styles.carouselItem}>
-          <img src="/public/img/act.jpg"  alt="Product 4" />
+          <img src="/public/img/act.JPG"  alt="Product 4" />
           <p>Body scrub</p>
           <p>$20</p>
         </div>

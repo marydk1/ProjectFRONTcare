@@ -29,14 +29,14 @@ const NewPage = () => {
     { 
       name: "Anna S.", 
       text: "The best texture I have ever tried. My skin feels incredibly radiant and alive.", 
-      img1: "/img/cs.jpg", 
-      img2: "/img/dr.jpg" 
+      img1: "/img/cs.JPG", 
+      img2: "/img/dr.JPG" 
     },
     { 
       name: "Marta K.", 
       text: "My skin has finally found its balance after months of stress-induced breakouts.", 
-      img1: "/img/ch.jpg", 
-      img2: "/img/medik.jpg" 
+      img1: "/img/ch.JPG", 
+      img2: "/img/medik.JPG" 
     }
   ];
 
@@ -91,7 +91,7 @@ const NewPage = () => {
 
             <div className={styles.storyContent}>
               <div className={styles.storyImageWrapper}>
-                <img src="/img/story.jpg" alt="Our Laboratory" className={styles.storyImage} />
+                <img src="/img/story.JPG" alt="Our Laboratory" className={styles.storyImage} />
                 <span className={styles.storyImageLabel}>Since 2018</span>
               </div>
 
@@ -183,7 +183,7 @@ const NewPage = () => {
                 </ul>
               </div>
               <div className={styles.principlesImage}>
-                 <img src="/img/bes.jpg" alt="Lab Detail" style={{borderRadius: '12px'}} />
+                 <img src="/img/bes.JPG" alt="Lab Detail" style={{borderRadius: '12px'}} />
               </div>
             </div>
           </div>

@@ -9,7 +9,7 @@ const staticProducts = [
     name: "Ordinary Tonic",
     description: "Refreshing facial tonic that revitalizes and soothes your skin.",
     price: 20,
-    image: "/img/n4.jpg",
+    image: "/img/n4.JPG",
     details: {
       Ingredients: "Water, Witch Hazel, Glycerin, Aloe Vera extract, Glycolic Acid.",
       "How to Use": "Apply a few drops on a cotton pad and gently wipe over face morning and night.",
@@ -21,7 +21,7 @@ const staticProducts = [
     name: "Ordinary Serum",
     description: "Serum enriched with vitamins to improve skin elasticity and glow.",
     price: 40,
-    image: "/img/n5.jpg",
+    image: "/img/n5.JPG",
     details: {
       Ingredients: "Vitamin C, Hyaluronic Acid, Niacinamide, Aqua, Glycerin.",
       "How to Use": "Apply 2-3 drops to cleansed face and neck, gently massage until absorbed.",
@@ -33,7 +33,7 @@ const staticProducts = [
     name: "Ordinary Face Cream",
     description: "Rich face cream that moisturizes, nourishes, and protects your skin.",
     price: 20,
-    image: "/img/n6.jpg",
+    image: "/img/n6.JPG",
     details: {
       Ingredients: "Shea Butter, Jojoba Oil, Vitamin E, Aloe Vera, Ceramides.",
       "How to Use": "Apply morning and evening to face and neck as the last step of your routine.",
@@ -45,7 +45,7 @@ const staticProducts = [
     name: "Dior Roller",
     description: "Cooling ice roller for soothing tired eyes and reducing puffiness.",
     price: 20,
-    image: "/img/n1.jpg",
+    image: "/img/n1.JPG",
     details: {
       Ingredients: "Hypoallergenic Zinc Alloy, cooling gel core.",
       "How to Use": "Keep in fridge, roll under eyes or over face for 5-10 minutes in the morning.",
@@ -57,7 +57,7 @@ const staticProducts = [
     name: "Dior Washing Gel",
     description: "Gentle washing gel that cleanses and refreshes your skin daily.",
     price: 20,
-    image: "/img/n2.jpg",
+    image: "/img/n2.JPG",
     details: {
       Ingredients: "Mild Surfactants, Rose Extract, Chamomile, Aqua.",
       "How to Use": "Massage a small amount onto damp skin, rinse thoroughly with warm water.",
@@ -69,7 +69,7 @@ const staticProducts = [
     name: "Dior Essence",
     description: "Hydrating essence that smooths the skin and prepares it for serums.",
     price: 20,
-    image: "/img/n3.jpg",
+    image: "/img/n3.JPG",
     details: {
       Ingredients: "Fermented Yeast Extract, Hyaluronic Acid, Glycerin, Jasmine extract.",
       "How to Use": "Apply 2-3 drops on clean skin, gently pat with palms until absorbed.",
@@ -81,7 +81,7 @@ const staticProducts = [
     name: "Centella Eye Cream",
     description: "Eye cream that reduces dark circles, puffiness, and signs of fatigue.",
     price: 20,
-    image: "/img/w1.jpg",
+    image: "/img/w1.JPG",
     details: {
       Ingredients: "Centella Asiatica Extract, Caffeine, Peptides, Panthenol.",
       "How to Use": "Apply a small amount around the eye area morning and evening using ring fingers.",
@@ -93,7 +93,7 @@ const staticProducts = [
     name: "Centella Tone",
     description: "Soothing toner to restore skin radiance and even out complexion.",
     price: 20,
-    image: "/img/w2.jpg",
+    image: "/img/w2.JPG",
     details: {
       Ingredients: "Centella Asiatica, Madecassoside, Green Tea, Niacinamide.",
       "How to Use": "Apply with a cotton pad or palms to cleansed face before serum.",
@@ -105,7 +105,7 @@ const staticProducts = [
     name: "Centella Tone Bright",
     description: "Intensive brightening toner for a radiant and fresh look.",
     price: 20,
-    image: "/img/w3.jpg",
+    image: "/img/w3.JPG",
     details: {
       Ingredients: "Brightening Peptides, Vitamin C, Centella Extract, Licorice Root.",
       "How to Use": "Use daily after cleansing. Pat gently into the skin for better absorption.",
@@ -117,7 +117,7 @@ const staticProducts = [
     name: "Dior Eye Rich Cream",
     description: "Ultra-moisturizing eye cream for mature or very dry skin.",
     price: 20,
-    image: "/img/g2.jpg",
+    image: "/img/g2.JPG",
     details: {
       Ingredients: "Royal Jelly, Rose de Granville extract, Shea Butter, Vitamin E.",
       "How to Use": "Gently dab a small amount under eyes and on eyelids morning and night.",
@@ -129,7 +129,7 @@ const staticProducts = [
     name: "Dior Prestige Balm",
     description: "Luxurious repair balm for restoring skin barrier and texture.",
     price: 20,
-    image: "/img/le.jpg",
+    image: "/img/le.JPG",
     details: {
       Ingredients: "Rose Micro-Oils, Ceramides, Beeswax, Rose Nectar.",
       "How to Use": "Warm a small amount between fingers and apply to dry areas of the face.",
@@ -141,7 +141,7 @@ const staticProducts = [
     name: "Dior Le Nectar",
     description: "Daily hydrating serum that keeps your skin fresh and supple.",
     price: 20,
-    image: "/img/g4.jpg",
+    image: "/img/g4.JPG",
     details: {
       Ingredients: "Rose Nectar, Hyaluronic Acid, Seaweed Extract, Glycerin.",
       "How to Use": "Apply 2-3 drops on face and neck before your moisturizer.",

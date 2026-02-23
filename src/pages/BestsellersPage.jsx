@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 import { useCart } from "../context/CartContext";
 
 const products = [
-  { id: 10, name: "Dior Eye Rich cream", price: 20, image: "/img/g2.jpg" },
-  { id: 12, name: "Dior Le Nectar",     price: 20, image: "/img/g4.jpg" },
-  { id: 11, name: "Dior Prestige Balme", price: 20, image: "/img/le.jpg" },
+  { id: 10, name: "Dior Eye Rich cream", price: 20, image: "/img/g2.JPG" },
+  { id: 12, name: "Dior Le Nectar",     price: 20, image: "/img/g4.JPG" },
+  { id: 11, name: "Dior Prestige Balme", price: 20, image: "/img/le.JPG" },
 ];
 
 const BestsellersPage = () => {

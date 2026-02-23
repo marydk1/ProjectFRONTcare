@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 import { useCart } from "../context/CartContext";
 
 const products = [
-  { id: 4, name: "Dior Patches", price: 20, image: "/img/dior4.jpg" },
-  { id: 6, name: "Dior Essence", price: 20, image: "/img/dior3.jpg" },
-  { id: 5, name: "Peeling Rose", price: 20, image: "/img/n2.jpg" },
-  { id: 7, name: "Aqua Serum", price: 20, image: "/img/w1.jpg" },
-  { id: 9, name: "Zen Balm", price: 20, image: "/img/w3.jpg" },
+  { id: 4, name: "Dior Patches", price: 20, image: "/img/dior4.JPG" },
+  { id: 6, name: "Dior Essence", price: 20, image: "/img/dior3.JPG" },
+  { id: 5, name: "Peeling Rose", price: 20, image: "/img/n2.JPG" },
+  { id: 7, name: "Aqua Serum", price: 20, image: "/img/w1.JPG" },
+  { id: 9, name: "Zen Balm", price: 20, image: "/img/w3.JPG" },
 ];
 
 const NoveltyPage = () => {
